@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-size: cover;
+    color: white;
+}
+
+.clock {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 180px;
+}
+
+.date {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+}
+
+.greeting-section {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-decoration: bold;
+}
+
+.weather {
+    text-align: center;
+    padding: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
