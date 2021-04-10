@@ -38,3 +38,26 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
 }
+
+@media only screen and (max-width: 375px){
+    body {
+        background-size: contain;
+    }
+    
+    .clock {
+        width: 100%;
+        font-size: 90px;
+    }
+
+    .date {
+        font-size: 30px;
+    }
+
+    .greeting-section {
+        font-size: 25px;
+    }
+
+    .weather {
+        font-size: 20px;
+    }
+}
